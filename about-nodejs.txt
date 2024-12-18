@@ -1,0 +1,38 @@
+How Node.js works under the hood:
+
+- V8 Engine:
+
+Node.js is built on top of the V8 Javascript engine that is written in C++ and it's what take the JS code and converts it into
+machine code. Node has taken this engine and extended it to work on the server side.
+
+
+- Non-blocking:
+
+Node doesn't wait around for IO operations (Input/Output operations), like network calls, file system operations and database operations, for example.
+Instead of blocking the execution of code while waiting for this things to happen/complete, Node uses events and callbacks and this allows it to handle
+thousands of connections at the same time.
+
+- Single threaded:
+
+In Node there's a single main thread that executes the JS code. A thread can be thought as a set of instructions that the computer executes and in
+a single-threaded environment there's only one set of instructions that are executed at a time. This is different from a multi-threaded environment
+where there are multiple threads that can execute different parts of the code simultaneously.
+
+- Event loop:
+
+Node.js uses something called the 'event loop' which is a mechanism that allow Node to perform non-blocking IO operations and when a network
+request is made, for example, Node doesn't wait for that request to complete, instead it continues to execute the rest of the code. When that request
+does complete it triggers a callback that is added to the event queue and event loop picks up the callback and executes it.
+
+
+
+Node can the used for many things:
+
+- Building APIs
+- Server-rendered apps
+- Real-time applications
+- Microservices
+- Command Line tools
+- Bots
+- Web Scraping
+- Web Servers
