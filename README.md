@@ -1,3 +1,3 @@
 # learning-NodeJS
 
-Reference: https://www.youtube.com/watch?v=32M1al-Y6Ag
+A repository created to show my Node.js learning journey.
