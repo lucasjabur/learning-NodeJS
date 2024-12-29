@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon --env-file=.env server.js"
+    "start-server": "nodemon --env-file=.env server.js"
   },
   "keywords": [],
   "author": "Lucas Cardoso Jabur",

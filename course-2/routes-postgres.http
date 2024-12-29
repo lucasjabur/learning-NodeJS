@@ -3,8 +3,8 @@ Content-type: application/json
 
 {
   "title": "Video node",
-  "description": "First Video!",
-  "duration": 180
+  "description": "Second Video!",
+  "duration": 95
 }
 
 ###
@@ -24,4 +24,4 @@ Content-type: application/json
 
 ###
 
-DELETE http://localhost:3334/videos/ecbd3143-bc3b-4af2-88af-a2eed6fd6354
+DELETE http://localhost:3334/videos/5a1637fe-9766-4854-9f80-edf62941b683
